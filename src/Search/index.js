@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    return fetch("http://www.mocky.io/v2/5c9105cb330000112b649af8")
+    return fetch("https://www.mocky.io/v2/5c9105cb330000112b649af8")
       .then(response => response.json())
       .then(responseJson => {
         var response1 = { ...responseJson };
